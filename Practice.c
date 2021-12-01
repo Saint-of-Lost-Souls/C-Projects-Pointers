@@ -4,7 +4,9 @@
 
 int main()
 {
-
+    int *ptr = str; (no &, if u want it to point to the value
+    int *ptr = &str; (point to memory address)
+    
     int age = 37;
     int* pAge = &age;
     double pi = 3.14;
